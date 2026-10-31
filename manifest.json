@@ -1,0 +1,215 @@
+{
+    "name" : "smartcity",
+    "appid" : "__UNI__C5CAC63",
+    "description" : "测试使用",
+    "versionName" : "1.0.0",
+    "versionCode" : "100",
+    "transformPx" : false,
+    /* 5+App特有相关 */
+    "app-plus" : {
+        "usingComponents" : true,
+        "splashscreen" : {
+            "alwaysShowBeforeRender" : true,
+            "waiting" : true,
+            "autoclose" : true,
+            "delay" : 0
+        },
+        /* 模块配置 */
+        "modules" : {
+            "Geolocation" : {},
+            "OAuth" : {},
+            "VideoPlayer" : {},
+            "Webview-x5" : {},
+            "Share" : {},
+            "Payment" : {},
+            "Push" : {},
+            "LivePusher" : {},
+            "Maps" : {}
+        },
+        /* 应用发布信息 */
+        "distribute" : {
+            /* android打包配置 */
+            "android" : {
+                "permissions" : [
+                    "<uses-feature android:name=\"android.hardware.camera\"/>",
+                    "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CALL_PHONE\"/>",
+                    "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+                    "<uses-permission android:name=\"android.permission.INTERNET\"/>",
+                    "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
+                    "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
+                    "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+                    "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
+                ],
+                "abiFilters" : [ "armeabi-v7a", "arm64-v8a", "x86" ]
+            },
+            /* ios打包配置 */
+            "ios" : {},
+            /* SDK配置 */
+            "sdkConfigs" : {
+                "ad" : {},
+                "maps" : {
+                    "baidu" : {
+                        "appkey_ios" : "L5O7yZmjg5Qsf950XXxeR4zubeTtKNUi",
+                        "appkey_android" : "L5O7yZmjg5Qsf950XXxeR4zubeTtKNUi"
+                    }
+                },
+                "oauth" : {
+                    "weixin" : {
+                        "appid" : "wxdc56a1eedc0f2dec",
+                        "appsecret" : "3602eca05a90222d9e0f46e40122ebd9",
+                        "UniversalLinks" : ""
+                    }
+                },
+                "payment" : {
+                    "weixin" : {
+                        "__platform__" : [ "ios", "android" ],
+                        "appid" : "wxdc56a1eedc0f2dec",
+                        "UniversalLinks" : ""
+                    },
+                    "alipay" : {}
+                },
+                "geolocation" : {
+                    "baidu" : {
+                        "__platform__" : [ "ios", "android" ],
+                        "appkey_ios" : "L5O7yZmjg5Qsf950XXxeR4zubeTtKNUi",
+                        "appkey_android" : "L5O7yZmjg5Qsf950XXxeR4zubeTtKNUi"
+                    }
+                },
+                "share" : {
+                    "weixin" : {
+                        "appid" : "wxdc56a1eedc0f2dec",
+                        "UniversalLinks" : ""
+                    }
+                },
+                "push" : {}
+            },
+            "splashscreen" : {
+                "androidStyle" : "common"
+            },
+            "icons" : {
+                "ios" : {
+                    "appstore" : "unpackage/res/icons/1024x1024.png",
+                    "ipad" : {
+                        "notification@2x" : "unpackage/res/icons/40x40.png",
+                        "notification" : "unpackage/res/icons/20x20.png",
+                        "app" : "unpackage/res/icons/76x76.png",
+                        "app@2x" : "unpackage/res/icons/152x152.png",
+                        "proapp@2x" : "unpackage/res/icons/167x167.png",
+                        "settings" : "unpackage/res/icons/29x29.png",
+                        "settings@2x" : "unpackage/res/icons/58x58.png",
+                        "spotlight" : "unpackage/res/icons/40x40.png",
+                        "spotlight@2x" : "unpackage/res/icons/80x80.png"
+                    },
+                    "iphone" : {
+                        "app@2x" : "unpackage/res/icons/120x120.png",
+                        "app@3x" : "unpackage/res/icons/180x180.png",
+                        "notification@2x" : "unpackage/res/icons/40x40.png",
+                        "notification@3x" : "unpackage/res/icons/60x60.png",
+                        "settings@2x" : "unpackage/res/icons/58x58.png",
+                        "settings@3x" : "unpackage/res/icons/87x87.png",
+                        "spotlight@2x" : "unpackage/res/icons/80x80.png",
+                        "spotlight@3x" : "unpackage/res/icons/120x120.png"
+                    }
+                },
+                "android" : {
+                    "hdpi" : "unpackage/res/icons/72x72.png",
+                    "xhdpi" : "unpackage/res/icons/96x96.png",
+                    "xxhdpi" : "unpackage/res/icons/144x144.png",
+                    "xxxhdpi" : "unpackage/res/icons/192x192.png"
+                }
+            }
+        }
+    },
+    /* 快应用特有相关 */
+    "quickapp" : {},
+    /* 小程序特有相关 */
+    "mp-weixin" : {
+        "appid" : "wxa23f7ae3d5acc39b",
+        "setting" : {
+            "urlCheck" : false,
+            "es6" : true,
+            "postcss" : true,
+            "minified" : true,
+            "showES6CompileOption" : true
+        },
+        "usingComponents" : true,
+        "permission" : {
+            "scope.userLocation" : {
+                "desc" : "你的位置信息将用于小程序位置接口的效果展示"
+            }
+        },
+        "plugins" : {
+            "WechatSI" : {
+                "version" : "0.3.5",
+                "provider" : "wx069ba97219f66d99"
+            }
+        },
+        // "mayi-ordering" : {
+        //     "version" : "1.0.12",
+        //     "provider" : "wx869ff9f322c1d2f0"
+        // }
+        "optimization" : {
+            "subPackages" : true
+        },
+        // "lazyCodeLoading" : "requiredComponents",
+        "requiredPrivateInfos" : [
+            "onLocationChange",
+            "getLocation",
+            "chooseAddress",
+            "choosePoi",
+            "chooseLocation"
+        ]
+    },
+    "networkTimeout" : {
+        "request" : 15000
+    },
+    "mp-alipay" : {
+        "usingComponents" : true
+    },
+    "mp-baidu" : {
+        "usingComponents" : true
+    },
+    "mp-toutiao" : {
+        "usingComponents" : true
+    },
+    "uniStatistics" : {
+        "enable" : false //全局关闭  
+    },
+    "h5" : {
+        "title" : "smartcity",
+        "domain" : "https://zzhih.vvv6g.cn",
+        "router" : {
+            "base" : "/addons/weliam_smartcity/h5/",
+            "mode" : "hash"
+        },
+        "devServer" : {
+            "https" : true
+        },
+        "sdkConfigs" : {
+            "maps" : {
+                "qqmap" : {
+                    "key" : "KIQBZ-6OT3G-AOMQD-IHW6J-PEUDV-VCFAF"
+                }
+            }
+        },
+        "template" : "index.html",
+        "optimization" : {
+            "treeShaking" : {
+                "enable" : false
+            }
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+	"siteroot": "https://zzhih.vvv6g.cn", 
+	"uniacid": "1",
+	"base":"/addons/weliam_smartcity/h5/",
+	"routers":"/addons/weliam_smartcity/core/common/",
+	"name": "weliam_smartcity",
+	"weliamv": "1.0.0"
+}

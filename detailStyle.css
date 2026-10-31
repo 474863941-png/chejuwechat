@@ -1,0 +1,315 @@
+.carduserInfo-box {
+	box-shadow: 0 0 10upx 0 rgba(86, 86, 86, 0.2);
+	border-radius: 20upx;
+}
+
+.carduserInfo-box .carduserInfo-top {
+	padding: 60upx 50upx;
+}
+
+.businessCard_detail_bg {
+	position: absolute;
+	width: 182upx;
+	height: 248upx;
+	background-size: 182upx 248upx;
+	background-repeat: no-repeat;
+	right: 0;
+	bottom: 0;
+}
+
+.carduserInfo-top .cardInfo-left .seg {
+	width: 104upx;
+	height: 2upx;
+	background-color: #333333;
+	margin: 10upx 0;
+}
+
+.carduserInfo-top .cardInfo-right {
+	width: 90upx;
+	height: 90upx;
+	border-radius: 45upx;
+	background-size: 90upx 90upx;
+	background-repeat: no-repeat;
+}
+
+.carduserInfo-top .cardInfo-contact .icon-Class {
+	font-size: 32upx;
+	width: 32upx;
+}
+
+.carduserInfo-top .cardInfo-contact {
+	margin-top: 60upx;
+}
+
+.carduserInfo-top .cardInfo-tab {
+	margin-top: 60upx;
+}
+
+.carduserInfo-btm,
+.carduserPayInfo-bottom {
+	padding-bottom: 30upx;
+}
+
+.carduserInfo-btm .shadow-seg,
+.carduserPayInfo-bottom .shadow-seg {
+	width: 100%;
+	height: 30upx;
+	background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 100%);
+	opacity: 0.06;
+}
+
+.carduserInfo-btm .cardDataList {
+	padding: 0 50upx;
+}
+
+.carduserfcbtn-box {
+	padding: 0 14upx;
+}
+
+.fcbtn-list {
+	margin: 50upx 0 30upx;
+}
+
+.fcbtn-list .fcbtn-item .fcbtn-itemIconfont {
+	font-size: 30upx;
+}
+
+.fcbtn-list .fcbtn-item.defau-btn {
+	width: 180upx;
+	height: 60upx;
+	line-height: 60upx;
+	border: 1px solid #EEEEEE;
+	border-radius: 30upx;
+}
+
+.cardusertabbar-box {
+	margin: 0 -30upx 60upx;
+}
+
+.cardusertabbar-box .tabbar-list {
+	height: 60upx;
+	line-height: 80upx;
+}
+
+.tabbar-item .selectabbar-item {
+	width: 48upx;
+	height: 6upx;
+	background-color: #FF4444;
+	border-radius: 6upx 6upx 0 0;
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	transform: translateX(-50%);
+}
+
+.bottomFixedTabbar {
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 20upx 30upx;
+	border-top: 1px solid #eeeeee;
+	border-radius: 6upx 6upx 0 0;
+	z-index: 100;
+}
+
+.bottomFixedTabbar-left {
+	width: 40%;
+	margin-right: 5%;
+}
+
+.menu-item .menu-itemImage {
+	width: 40upx;
+	height: 40upx;
+	display: block;
+	margin: 0 auto;
+	font-size: 0;
+}
+
+.tabbar-btnStyle {
+	padding: 10upx 30upx;
+	border-radius: 30px;
+	height: 44upx;
+}
+
+.tabbar-btnStyle.tabbar-chat {
+	background-color: #17D117;
+}
+
+.tabbar-btnStyle.tabbar-phone {
+	background-color: #FF4444;
+}
+
+.tabbar-itemImage {
+	width: 40upx;
+	height: 40upx;
+	display: block;
+	margin-right: 10upx;
+	font-size: 0;
+}
+
+.tabbar-btnlist {
+	width: 100%;
+}
+
+.fctabbar-box {
+	padding: 0 60upx;
+}
+
+.fctabbarImage {
+	width: 40upx;
+	height: 40upx;
+	display: block;
+	margin: 0 auto 10upx;
+}
+
+.carduserPayInfo-top {
+	padding: 80upx 0;
+}
+
+.carduserPayInfo-top .carduserPayBtn {
+	width: 240upx;
+	height: 50upx;
+	line-height: 50upx;
+	border: 1px dotted #666666;
+	border-radius: 25upx;
+	text-align: center;
+}
+
+.cardInfo-contact .wx>image {
+	width: 30upx;
+	height: 30upx;
+	font-size: 0;
+	margin-right: 24upx;
+}
+
+.fnclick-dz {
+	border-color: #ff4444 !important;
+	color: #ff4444 !important;
+}
+
+.coverImg {
+	width: 750upx;
+}
+
+.closeButton {
+	height: 88upx;
+	width: 750upx;
+	text-align: center;
+}
+
+.closeButton>text {
+	line-height: 88upx;
+	font-size: 28upx;
+	color: rgba(51, 51, 51, 1);
+}
+
+.buttonText {
+	text-align: center;
+}
+
+.buttonText>text {
+	font-size: 24upx;
+	color: rgba(51, 51, 51, 1);
+}
+
+.buttonImage {
+	margin: auto;
+	width: 120upx;
+	height: 120upx;
+}
+
+.buttonImage>image {
+	width: 120upx;
+	height: 120upx;
+}
+
+.titleButton {
+	position: relative;
+	margin: 47upx 0 0 0;
+	display: inline-block;
+	width: 50%;
+}
+
+.mainTitle {
+	width: 750upx;
+	height: 255upx;
+	border-bottom: 1upx solid rgba(238, 238, 238, 1);
+}
+
+.shareBottom {
+	font-size: 0;
+}
+
+.viewMain {
+	width: 750upx;
+	height: 344upx;
+	background: rgba(255, 255, 255, 1);
+	border-radius: 20upx 20upx 0upx 0upx;
+}
+
+.shareButton {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: rgba(0, 0, 0, 0);
+}
+
+.wxShareView {
+	width: 100%;
+	height: 100%;
+}
+.full{
+	height: 100upx;
+	width: 750upx;
+	background: #F8F8F8;
+}
+.cardEndTime {
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 240upx;
+	padding: 0 30upx;
+	height: 40upx;
+	line-height: 40upx;
+	background-color: #ff4444;
+	border-radius: 0 20upx 0 10upx;
+}
+
+.checkbox-content {
+	width: 100vw;
+	height: 500upx;
+	border-radius: 20upx 20upx 0upx 0upx;
+}
+
+.scrollView {
+	width: 100vw;
+	height: 360upx;
+	padding: 30upx;
+}
+
+.labeStyle:last-child .labeStyle-btm {
+	margin-bottom: 0;
+}
+
+.checkbox-submit {
+	height: 80upx;
+	line-height: 80upx;
+	background-color: #FF4444;
+}
+
+.briefTextwh {
+	word-break: break-all;
+}
+
+.shop-content,
+.issue-content {
+	background-color: #F8F8F8 !important;
+}
+.issue-content{
+	padding: 15upx 0 30upx;
+}
